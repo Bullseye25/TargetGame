@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | AK-Guns-Assault-rifle</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <title>Game Demo</title>
+    <!-- <link rel="shortcut icon" href="TemplateData/favicon.ico"> -->
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
@@ -16,11 +16,11 @@
           <div id="unity-progress-bar-full"></div>
         </div>
       </div>
-      <div id="unity-footer">
+      <!-- <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">AK-Guns-Assault-rifle</div>
-      </div>
+        <div id="unity-build-title">Game-Demo</div>
+      </div> -->
     </div>
     <script>
       var buildUrl = "Build";
@@ -45,8 +45,8 @@
         container.className = "unity-mobile";
         config.devicePixelRatio = 1;
       } else {
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = "800px";
+        canvas.style.height = "400px";
       }
       loadingBar.style.display = "block";
 
